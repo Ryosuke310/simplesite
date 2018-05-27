@@ -55,7 +55,7 @@ td{
     background:#EEEEEE;
 }
 .tableattension__dec{
-    padding:10px 0 10px 0;
+    padding:10px 0 10px 10px;
 }
 .tableattension__txt{
     font-size:1.1rem;
