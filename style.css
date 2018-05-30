@@ -1,7 +1,12 @@
 body{
     width:60%;
     font-size:62.5%;
-    margin: 50px auto 0 auto;
+    margin: 50px auto 50px auto;
+}
+@media screen and (max-width: 1024px) {
+    body {
+        width:90%;
+    }
 }
 p{
     margin:0;
@@ -13,18 +18,30 @@ td{
     border-right: 1px #DDDDDD solid;
 }
 
-
+.content{
+    padding:40px;
+    border:1px black solid;
+    box-shadow: 0 0 8px gray;
+}
 .headline__title{
+    margin:0 0 30px 0;
+    padding:10px;
+    background:red;
+    color:#FFFFFF;
     font-size:2.0rem;
 }
-.headline__txt{
+.headline__txt1{
+    font-size:1.6rem;
+    font-weight: bold;
+}
+.headline__txt2{
     font-size:1.4rem;
 }
 
 
 .tableinfo{
     margin:50px auto 0 auto;
-    font-size:1.3rem;
+    font-size:1.2rem;
     border: 2px #EEEEEE solid!important;
 }
 .tableinfo__title{
@@ -43,8 +60,18 @@ td{
 .tableinfo__txt2{
     padding:30px 0 20px 12px!important;
 }
+.tableinfo__txt2_2{
+    padding:15px 0 10px 12px!important;
+}
+.tableinfo__txt3{
+    padding:30px 0 20px 0!important;
+    text-align: center;
+}
+.tableinfo__last{
+    text-align: center;
+}
 .txt{
-    margin:50px 0 70px 0;
+    margin:50px 0 0 0;
     text-align: center;
     font-size:1.1rem;
 }
@@ -59,10 +86,6 @@ td{
 }
 .tableattension__txt{
     font-size:1.1rem;
-}
-
-.tbody{
-    padding:0 10px 0 10px;
 }
 .tablethanks__title{
     padding:15px 0 15px 10px;
