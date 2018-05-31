@@ -58,10 +58,12 @@ td{
     text-align: center;
 }
 .tableinfo__txt2{
-    padding:30px 0 20px 12px!important;
+    padding:27px 0 20px 0!important;
+    text-align: center;
 }
 .tableinfo__txt2_2{
-    padding:15px 0 10px 12px!important;
+    padding:12px 0 10px 0!important;
+    text-align: center;
 }
 .tableinfo__txt3{
     padding:30px 0 20px 0!important;
@@ -70,11 +72,18 @@ td{
 .tableinfo__last{
     text-align: center;
 }
+.tableinfo.border_y{
+    border: 2px #FFFF77 solid!important;
+}
+.tableinfo.border_r{
+    border: 2px #FF97C2 solid!important;
+}
 .txt{
     margin:50px 0 0 0;
     text-align: center;
     font-size:1.1rem;
 }
+
 .tableattension__title{
     margin:0;
     padding:5px 0 5px 0;
@@ -87,6 +96,7 @@ td{
 .tableattension__txt{
     font-size:1.1rem;
 }
+
 .tablethanks__title{
     padding:15px 0 15px 10px;
     font-size:2.0rem;
@@ -94,9 +104,16 @@ td{
 .tablethanks__dec{
     padding:20px 40px 20px 20px;
 }
-.tableinfo.border_y{
-    border: 2px #FFFF77 solid!important;
+
+.tablesimple__title{
+    margin:0;
+    padding:15px 0px 15px 20px;
+    font-size:1.2rem;
+    background:#EEEEEE;
 }
-.tableinfo.border_r{
-    border: 2px #FF97C2 solid!important;
+.tablesimple__dec{
+    padding:20px 0 20px 20px;
+}
+.tablesimple__txt{
+    font-size:1.0rem;
 }
