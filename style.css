@@ -14,8 +14,15 @@ p{
 .table{
     margin:0;
 }
+tr{
+    border: 1px #DDDDDD solid;
+}
 td{
-    border-right: 1px #DDDDDD solid;
+    border: 1px #DDDDDD solid;
+    /*border-right: 0px!important*/
+}
+h1{
+    font-size:2.0rem;
 }
 
 .content{
@@ -48,7 +55,7 @@ td{
     margin:0;
     padding:15px 0 15px 0;
     text-align: center;
-    font-size:1.6rem;
+    font-size:2.0rem;
     background:#EEEEEE;
 }
 .tableinfo__dec{
@@ -99,7 +106,7 @@ td{
 
 .tablethanks__title{
     padding:15px 0 15px 10px;
-    font-size:1.6rem;
+    font-size:2.0rem;
 }
 .tablethanks__dec{
     padding:20px 40px 20px 20px;
@@ -112,8 +119,26 @@ td{
     background:#EEEEEE;
 }
 .tablesimple__dec{
-    padding:20px 0 20px 20px;
+    padding:20px 20px 20px 20px;
 }
 .tablesimple__txt{
     font-size:1.0rem;
+}
+
+.tablelaw{
+     width:90%;
+     margin:30px auto 20px auto;
+}
+.tablelaw__title{
+    background:#FFFFE0;
+}
+.tablelaw__dec{
+    font-size:1.0rem;
+}
+.txtbox{
+    margin:0 0 10px 0;
+    padding:5px;
+    background:#EEEEEE;
+    color: #800;
+    font-weight: bold;
 }
