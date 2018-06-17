@@ -12,7 +12,7 @@ p{
     margin:0;
 }
 element.style {
-    margin: 20px;
+    margin: 20px!important;
 }
 .table{
     margin:0;
